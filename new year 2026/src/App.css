@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Full screen center */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+}
+
+/* Card center */
+.card {
+  background: white;
+  padding: 35px;
+  width: 380px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+.card h1 {
+  color: #c33764;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #c33764;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a12b52;
+}
+
+/* Wish box */
+.wish {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 10px;
+}
+
+.wish span {
+  color: #c33764;
+  font-weight: bold;
+}
