@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Background */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 35px;
+  width: 380px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Moving heading */
+.moving-text {
+  color: #c33764;
+  animation: moveText 2s infinite alternate;
+}
+
+@keyframes moveText {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}
+
+.subtitle {
+  margin: 10px 0 20px;
+  color: #555;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #c33764;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #a12b52;
+}
+
+/* Wish animation */
+.wish {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.wish span {
+  color: #c33764;
+  font-weight: bold;
+}
